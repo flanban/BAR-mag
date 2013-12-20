@@ -2,30 +2,21 @@ nav#thumb-nav-wrap {
   position:relative;
   z-index:17;
 }
-#thumb-menu {
-   position:relative;
-   z-index:17;
-   height:30px;
-   clear:both;
-   width:100%;
-   background:#eee;
-   text-align:center;
-   border: 1px solid #ccc;
-   border-left: 0;
-   border-right: 0;
-   #thumbnail-toggle {
+
+#menu-toggle {
     position:absolute;
-    top:30px;
-    background:#eee;
+    top:-31px;
+    background:#ebebeb;
     font-size:10px;
     font-family:Arial;
     font-weight:bold;
     text-transform:uppercase;
-    padding:3px 10px 1px 10px;
+    padding:0px 10px 0px 10px;
     left:50%;
+    margin:0;
     color:#c1c1c1;
     border: 1px solid #ccc;
-    border-top: 0;
+    border-bottom: 0;
     &:hover {
       cursor:pointer;
       color:#a1a1a1;
@@ -48,6 +39,5 @@ nav#thumb-nav-wrap {
     &:after {
       background-position:right;
     }
-    
-   }
- }
+  
+  }

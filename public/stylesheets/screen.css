@@ -722,40 +722,29 @@ nav#thumb-nav-wrap {
   z-index: 17;
 }
 
-#thumb-menu {
-  position: relative;
-  z-index: 17;
-  height: 30px;
-  clear: both;
-  width: 100%;
-  background: #eee;
-  text-align: center;
-  border: 1px solid #ccc;
-  border-left: 0;
-  border-right: 0;
-}
-#thumb-menu #thumbnail-toggle {
+#menu-toggle {
   position: absolute;
-  top: 30px;
-  background: #eee;
+  top: -31px;
+  background: #ebebeb;
   font-size: 10px;
   font-family: Arial;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 3px 10px 1px 10px;
+  padding: 0px 10px 0px 10px;
   left: 50%;
+  margin: 0;
   color: #c1c1c1;
   border: 1px solid #ccc;
-  border-top: 0;
+  border-bottom: 0;
 }
-#thumb-menu #thumbnail-toggle:hover {
+#menu-toggle:hover {
   cursor: pointer;
   color: #a1a1a1;
 }
-#thumb-menu #thumbnail-toggle:hover:before, #thumb-menu #thumbnail-toggle:hover:after {
+#menu-toggle:hover:before, #menu-toggle:hover:after {
   opacity: 1;
 }
-#thumb-menu #thumbnail-toggle:before, #thumb-menu #thumbnail-toggle:after {
+#menu-toggle:before, #menu-toggle:after {
   background: #eeeeee url("../images/up.png") no-repeat center;
   content: '';
   height: 5px;
@@ -763,9 +752,9 @@ nav#thumb-nav-wrap {
   display: inline-block;
   opacity: .3;
 }
-#thumb-menu #thumbnail-toggle:before {
+#menu-toggle:before {
   background-position: left;
 }
-#thumb-menu #thumbnail-toggle:after {
+#menu-toggle:after {
   background-position: right;
 }
