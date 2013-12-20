@@ -719,3 +719,15 @@ area {
 .nbs-flexisel-nav-left {
   left: 5px;
 }
+
+nav#thumb-nav-wrap {
+  position: relative;
+  z-index: 17;
+}
+nav#thumb-nav-wrap #thumb-menu {
+  padding: 10px 20px;
+  clear: both;
+  width: 100%;
+  background: #eee;
+  text-align: center;
+}
