@@ -42,6 +42,7 @@
     <div class="hide-btn icon-minus"><span class="visuallyhidden">Hide Menu</span></div></div>
     
     <section role="main">
+      <%= render "thumb-nav" %>
       <article>
         <header><h1><%= @title %></h1></header>
         <%= yield %>
@@ -49,7 +50,6 @@
     </section>
     <footer>
       <%= render "app-menu" %>
-      <%= render "thumb-nav" %>
     </footer>
   </body>
   <script>
