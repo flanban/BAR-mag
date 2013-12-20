@@ -728,7 +728,7 @@ nav#thumb-nav-wrap {
 nav#thumb-nav-wrap ul#carousel {
   position: relative;
   padding: 15px 5px;
-  background: #eee;
+  background: #222;
   height: 100%;
   overflow: auto;
 }
@@ -753,4 +753,10 @@ nav#thumb-nav-wrap ul#carousel li a img {
 #menu-toggle:hover {
   cursor: pointer;
   color: #a1a1a1;
+}
+
+.placeholder {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
 }
