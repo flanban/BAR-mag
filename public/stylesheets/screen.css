@@ -720,9 +720,21 @@ area {
 
 nav#thumb-nav-wrap {
   position: relative;
-  z-index: 17;
-  float: left;
-  width: 230px;
+  z-index: 3;
+  left: 0;
+  height: 100%;
+  width: 205px;
+}
+nav#thumb-nav-wrap ul#carousel {
+  position: relative;
+  padding: 15px 5px;
+  background: #eee;
+  height: 100%;
+  overflow: auto;
+}
+nav#thumb-nav-wrap ul#carousel li a img {
+  width: 195px;
+  height: 102px;
 }
 
 #menu-toggle {
