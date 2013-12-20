@@ -25,39 +25,18 @@ nav#thumb-nav-wrap {
 
 #menu-toggle {
     position:absolute;
-    top:-31px;
-    background:#ebebeb;
+    z-index:6;
+    top:0px;
+    left:200px;
     font-size:10px;
     font-family:Arial;
     font-weight:bold;
     text-transform:uppercase;
     padding:0px 10px 0px 10px;
-    left:50%;
     margin:0;
-    color:#c1c1c1;
-    border: 1px solid #ccc;
-    border-bottom: 0;
+    color:#ccc;
     &:hover {
       cursor:pointer;
       color:#a1a1a1;
-      &:before, &:after {
-        opacity:1;
-      }
     }
-    &:before, &:after  {
-      background:#eee url('../images/up.png') no-repeat center;
-      content: '';
-      height: 5px;
-      width: 14px;
-      display: inline-block;
-      opacity:.3;
-
-    }
-    &:before {
-      background-position:left;
-    }
-    &:after {
-      background-position:right;
-    }
-  
   }

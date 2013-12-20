@@ -1,13 +1,12 @@
 $(window).load(function() {
-  $('#thumbnail-toggle').click(function(){
-    $('#thumb-nav-wrap').slideToggle(function() {
-        $("#menu-toggle").text($(this).is(':visible') ? "Hide" : "Show");
+  $('#menu-toggle').click(function() {
+      $("#menu-toggle").text($(this).prev().is(':visible') ? "Hide" : "Show")
+      var $lefty = $(this).parent();
+      
+      $lefty.animate({
+        left: parseInt($lefty.css('left'),10) == 0 ?
+          -$lefty.outerWidth() :
+          0
       });
-  });
-  function initButton() {
-    var toggleBtnWidth = $('#thumbnail-toggle').width();
-    var toggleBtnOffset = toggleBtnWidth/2;
-    $('#thumbnail-toggle').css('margin-left', - toggleBtnOffset);
-  }
-  initButton();
+    }); 
 });

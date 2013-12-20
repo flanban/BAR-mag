@@ -739,37 +739,18 @@ nav#thumb-nav-wrap ul#carousel li a img {
 
 #menu-toggle {
   position: absolute;
-  top: -31px;
-  background: #ebebeb;
+  z-index: 6;
+  top: 0px;
+  left: 200px;
   font-size: 10px;
   font-family: Arial;
   font-weight: bold;
   text-transform: uppercase;
   padding: 0px 10px 0px 10px;
-  left: 50%;
   margin: 0;
-  color: #c1c1c1;
-  border: 1px solid #ccc;
-  border-bottom: 0;
+  color: #ccc;
 }
 #menu-toggle:hover {
   cursor: pointer;
   color: #a1a1a1;
-}
-#menu-toggle:hover:before, #menu-toggle:hover:after {
-  opacity: 1;
-}
-#menu-toggle:before, #menu-toggle:after {
-  background: #eeeeee url("../images/up.png") no-repeat center;
-  content: '';
-  height: 5px;
-  width: 14px;
-  display: inline-block;
-  opacity: .3;
-}
-#menu-toggle:before {
-  background-position: left;
-}
-#menu-toggle:after {
-  background-position: right;
 }
