@@ -742,13 +742,23 @@ nav#thumb-nav-wrap {
   font-family: Arial;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 11px 10px 1px 10px;
   left: 50%;
+  color: #a1a1a1;
+}
+#thumb-menu #thumbnail-toggle:hover {
+  cursor: pointer;
 }
 #thumb-menu #thumbnail-toggle:before, #thumb-menu #thumbnail-toggle:after {
-  background: #eeeeee url("../images/up.png") no-repeat;
+  background: #eeeeee url("../images/up.png") no-repeat center;
   content: '';
   height: 5px;
-  width: 8px;
+  width: 14px;
   display: inline-block;
+}
+#thumb-menu #thumbnail-toggle:before {
+  background-position: left;
+}
+#thumb-menu #thumbnail-toggle:after {
+  background-position: right;
 }
