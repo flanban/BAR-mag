@@ -1,13 +1,19 @@
 nav#thumb-nav-wrap {
   position:relative;
   z-index:17;
-  #thumb-menu {
-    padding:10px 20px;
-    clear:both;
-    width:100%;
-    background:#eee;
-    text-align:center;
-    #thumbnail-toggle {
-    }
-  }
 }
+#thumb-menu {
+   position:relative;
+   z-index:17;
+   padding:10px 20px;
+   clear:both;
+   width:100%;
+   background:#eee;
+   text-align:center;
+   border: 1px solid #ccc;
+   border-left: 0;
+   border-right: 0;
+   #thumbnail-toggle {
+   
+   }
+ }
