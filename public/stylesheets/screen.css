@@ -723,7 +723,6 @@ nav#thumb-nav-wrap {
   z-index: 17;
   float: left;
   width: 230px;
-  box-sizing: border-box;
 }
 
 #menu-toggle {
