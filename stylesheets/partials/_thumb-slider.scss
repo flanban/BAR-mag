@@ -15,15 +15,17 @@ nav#thumb-nav-wrap {
    border-right: 0;
    #thumbnail-toggle {
     position:absolute;
-    top:20px;
+    top:30px;
     background:#eee;
     font-size:10px;
     font-family:Arial;
     font-weight:bold;
     text-transform:uppercase;
-    padding:11px 10px 1px 10px;
+    padding:3px 10px 1px 10px;
     left:50%;
     color:#a1a1a1;
+    border: 1px solid #ccc;
+    border-top: 0;
     &:hover {
       cursor:pointer;
     }
