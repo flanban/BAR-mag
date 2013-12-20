@@ -725,7 +725,7 @@ nav#thumb-nav-wrap {
 #thumb-menu {
   position: relative;
   z-index: 17;
-  padding: 10px 20px;
+  height: 30px;
   clear: both;
   width: 100%;
   background: #eee;
@@ -733,4 +733,22 @@ nav#thumb-nav-wrap {
   border: 1px solid #ccc;
   border-left: 0;
   border-right: 0;
+}
+#thumb-menu #thumbnail-toggle {
+  position: absolute;
+  top: 20px;
+  background: #eee;
+  font-size: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  left: 50%;
+}
+#thumb-menu #thumbnail-toggle:before, #thumb-menu #thumbnail-toggle:after {
+  background: #eeeeee url("../images/up.png") no-repeat;
+  content: '';
+  height: 5px;
+  width: 8px;
+  display: inline-block;
 }

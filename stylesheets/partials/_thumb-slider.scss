@@ -5,7 +5,7 @@ nav#thumb-nav-wrap {
 #thumb-menu {
    position:relative;
    z-index:17;
-   padding:10px 20px;
+   height:30px;
    clear:both;
    width:100%;
    background:#eee;
@@ -14,6 +14,21 @@ nav#thumb-nav-wrap {
    border-left: 0;
    border-right: 0;
    #thumbnail-toggle {
-   
+    position:absolute;
+    top:20px;
+    background:#eee;
+    font-size:10px;
+    font-family:Arial;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:10px 20px;
+    left:50%;
+    &:before, &:after  {
+      background:#eee url('../images/up.png') no-repeat;
+      content: '';
+      height: 5px;
+      width: 8px;
+      display: inline-block;
+    }
    }
  }
