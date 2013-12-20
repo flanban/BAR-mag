@@ -23,11 +23,15 @@ nav#thumb-nav-wrap {
     text-transform:uppercase;
     padding:3px 10px 1px 10px;
     left:50%;
-    color:#a1a1a1;
+    color:#c1c1c1;
     border: 1px solid #ccc;
     border-top: 0;
     &:hover {
       cursor:pointer;
+      color:#a1a1a1;
+      &:before, &:after {
+        opacity:1;
+      }
     }
     &:before, &:after  {
       background:#eee url('../images/up.png') no-repeat center;
@@ -35,6 +39,8 @@ nav#thumb-nav-wrap {
       height: 5px;
       width: 14px;
       display: inline-block;
+      opacity:.3;
+
     }
     &:before {
       background-position:left;

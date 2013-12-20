@@ -744,12 +744,16 @@ nav#thumb-nav-wrap {
   text-transform: uppercase;
   padding: 3px 10px 1px 10px;
   left: 50%;
-  color: #a1a1a1;
+  color: #c1c1c1;
   border: 1px solid #ccc;
   border-top: 0;
 }
 #thumb-menu #thumbnail-toggle:hover {
   cursor: pointer;
+  color: #a1a1a1;
+}
+#thumb-menu #thumbnail-toggle:hover:before, #thumb-menu #thumbnail-toggle:hover:after {
+  opacity: 1;
 }
 #thumb-menu #thumbnail-toggle:before, #thumb-menu #thumbnail-toggle:after {
   background: #eeeeee url("../images/up.png") no-repeat center;
@@ -757,6 +761,7 @@ nav#thumb-nav-wrap {
   height: 5px;
   width: 14px;
   display: inline-block;
+  opacity: .3;
 }
 #thumb-menu #thumbnail-toggle:before {
   background-position: left;
