@@ -349,6 +349,7 @@ body, html {
   background-color: #353535;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #353535;
+  overflow: hidden;
 }
 
 .ui-page {
@@ -720,6 +721,9 @@ area {
 nav#thumb-nav-wrap {
   position: relative;
   z-index: 17;
+  float: left;
+  width: 230px;
+  box-sizing: border-box;
 }
 
 #menu-toggle {

@@ -1,7 +1,6 @@
 * {
   -webkit-user-select: none;
 }
-
 @font-face {
   font-family: 'icomoon';
   src: url("fonts/icomoon.eot");
@@ -79,6 +78,7 @@ body, html {
   background-color: #353535;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #353535;
+  overflow:hidden;
 }
 
 .ui-page {
