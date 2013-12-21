@@ -10,9 +10,7 @@ nav#thumb-nav-wrap {
     background:#222;
     height:100%;
     overflow:auto;
-    
     li {
-
       a {
         img {
           width:195px;
@@ -20,6 +18,9 @@ nav#thumb-nav-wrap {
         }
       }
     }
+  }
+  @media(max-width:1024px) {
+    display:none;
   }
   }
 

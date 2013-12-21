@@ -736,6 +736,11 @@ nav#thumb-nav-wrap ul#carousel li a img {
   width: 195px;
   height: 102px;
 }
+@media (max-width: 1024px) {
+  nav#thumb-nav-wrap {
+    display: none;
+  }
+}
 
 #menu-toggle {
   position: absolute;
@@ -759,4 +764,14 @@ nav#thumb-nav-wrap ul#carousel li a img {
   font-size: 12px;
   padding: 0;
   margin: 0;
+}
+
+#showThumbs {
+  position: absolute;
+  left: 0;
+}
+@media (min-width: 1024px) {
+  #showThumbs {
+    display: none;
+  }
 }
